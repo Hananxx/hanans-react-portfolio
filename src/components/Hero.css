@@ -1,0 +1,7 @@
+#hero-name{
+    line-height: 60%;
+    text-shadow: 1px 1px #fff;
+}
+#hero-name span {
+    color: #1c1c1c;
+}

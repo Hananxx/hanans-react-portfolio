@@ -1,13 +1,12 @@
 import React from 'react'
-import Logo from './components/Logo'
-import Fade from 'react-reveal/Fade'
+import Hero from './components/Hero'
+import Nav from './components/Nav'
 export default function App() {
   return (
-    <div>
-      hanan
-      <Fade left>
-        <Logo />
-      </Fade>
+    <div className="border border-gray-700 mt-4 h-screen">
+      <Nav />
+      <Hero />
+      <hr className="border-black" />
     </div>
   )
 }
