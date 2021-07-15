@@ -9,9 +9,8 @@ body {
 .noise {
   @apply z-50 left-0 top-0 fixed w-screen h-screen;
   pointer-events: none;
-  opacity: .1;
+  opacity: .05;
 }
-#root {
-  @apply w-11/12 m-auto;
-  height: 91.999%;
+.language {
+  @apply px-3 rounded-full border border-gray-800 mx-1;
 }
